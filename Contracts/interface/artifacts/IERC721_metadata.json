@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_nftID",
+						"type": "uint256"
+					}
+				],
+				"name": "treaninProps",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "bool",
+								"name": "summoned",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "strength",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "mintTime",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "isFrozen",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "rarity",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "ID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "xp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Helper.TreaninProps",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/interfaces/IERC721.sol": "IERC721"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/interfaces/IERC721.sol": {
+			"keccak256": "0x7dd25820ac88a259d332d8b5b9d9385be9fedcce0eddfa5c9c2ba73b9bea3944",
+			"urls": [
+				"bzz-raw://b416a4a20db7d16d7cbbd0c3536271f7dab899363ce814c41f5dc36b842af989",
+				"dweb:/ipfs/Qmf9h6WX9xPounqLqWASPEKt8d7xDEMag8nwdVR5gsugFF"
+			]
+		},
+		"Contracts/library/Helper.sol": {
+			"keccak256": "0x045f463ce2c1524193f8deb2da6daed3be47a240de507f8afc66f383d4be2a91",
+			"urls": [
+				"bzz-raw://d06516d4c76962e7a37a3906cf825bbb6dbabeb57dcb33a04af2ebc4f87b83ff",
+				"dweb:/ipfs/QmVS2VS7zvif6HDJoutZ1mED3mWV4ggFoMzhWMoipzRL5w"
+			]
+		}
+	},
+	"version": 1
+}
